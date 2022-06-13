@@ -1,0 +1,80 @@
+.login{
+    margin-left: 40%;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    box-shadow: 4px 4px 15px 4px rgba(0,0,0,0.75);
+    border-radius: 10px;
+}
+.imagen{
+    width: 8%;
+    position: absolute;
+    justify-content: center;
+}
+.titulo{
+    margin-top: 160px;
+    justify-content: center;
+    position: absolute;
+    text-align: center;    
+}
+.formulario{
+    position: absolute;
+    margin-top: 230px;
+}
+.formulario>#mail{
+    margin-top: 10px;
+    position: absolute;
+    background-color: transparent;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: start;
+}
+.formulario>#pass{
+    margin-top: 71px;
+    position: absolute;
+    background-color: transparent;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: left;
+}
+.login>#entrar{
+    position: absolute;
+    margin-top: 350px;
+    padding: 10px;
+    background-color: rgb(10, 10, 82);
+    color: white;
+    width: 250px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+.login>#olvide{
+    position: absolute;
+    margin-top: 430px;
+    width: 150px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid gray;
+    background-color: transparent;
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.6);
+}
+
+input{
+    padding-left: 10px;
+}
